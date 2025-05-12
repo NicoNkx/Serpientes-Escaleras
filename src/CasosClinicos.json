@@ -1,0 +1,17 @@
+[
+  {
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "opciones": ["Madrid", "París", "Londres", "Roma"],
+    "respuestaCorrecta": "París"
+  },
+  {
+    "pregunta": "¿Cuánto es 5 x 6?",
+    "opciones": ["30", "11", "56", "60"],
+    "respuestaCorrecta": "30"
+  },
+  {
+    "pregunta": "¿Qué lenguaje se usa para la web?",
+    "opciones": ["Python", "HTML", "C++", "Java"],
+    "respuestaCorrecta": "HTML"
+  }
+]

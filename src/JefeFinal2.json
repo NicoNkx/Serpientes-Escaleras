@@ -1,0 +1,132 @@
+{
+  "casos_clinicos": [
+    {
+      "id": 6,
+      "nombre": "Paciente de 30 años, abogada",
+      "edad": 30,
+      "diagnostico": "Tendinitis rotuliana unilateral",
+      "respuestas": {
+        "correcta": {
+          "diatermia": "Capacitiva de baja frecuencia, 0.8 MHz",
+          "tratamiento_complementario": "Ejercicio excéntrico controlado + vendaje funcional",
+          "justificacion": "La diatermia favorece la circulación y oxigenación del tendón, reduciendo la inflamación y mejorando la flexibilidad.",
+          "frecuencia": "3 veces por semana durante 4 semanas"
+        },
+        "incorrecta_A": {
+          "diatermia": "Resistiva de alta frecuencia, 2 MHz",
+          "tratamiento_complementario": "Masoterapia y estiramiento pasivo",
+          "justificacion": "La diatermia resistiva no es indicada en una fase inflamatoria aguda, ya que podría empeorar el cuadro de inflamación.",
+          "frecuencia": "2 veces por semana durante 3 semanas"
+        },
+        "incorrecta_B": {
+          "diatermia": "Microondas de alta potencia",
+          "tratamiento_complementario": "Crioterapia y electroterapia",
+          "justificacion": "Las microondas de alta potencia provocan una respuesta inflamatoria y no son adecuadas para tendinitis crónicas.",
+          "frecuencia": "Diaria durante 2 semanas"
+        },
+        "incorrecta_C": {
+          "diatermia": "Ultrasonido terapéutico",
+          "tratamiento_complementario": "Terapia manual y ejercicios de fortalecimiento",
+          "justificacion": "El ultrasonido terapéutico no tiene el efecto térmico adecuado para la tendinitis de la rodilla.",
+          "frecuencia": "2 veces por semana durante 1 mes"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "Mujer de 40 años, jardinera",
+      "edad": 40,
+      "diagnostico": "Epicondilitis lateral en fase aguda",
+      "respuestas": {
+        "correcta": {
+          "diatermia": "Capacitiva de 0.5 MHz (frecuencia media)",
+          "tratamiento_complementario": "Reposo relativo y ejercicios de movilización controlada",
+          "justificacion": "La diatermia favorece la circulación en el área afectada, reduce la inflamación y facilita la regeneración del tejido dañado.",
+          "frecuencia": "3 veces por semana durante 4 semanas"
+        },
+        "incorrecta_A": {
+          "diatermia": "Microondas de baja potencia",
+          "tratamiento_complementario": "Electroterapia y vendaje neuromuscular",
+          "justificacion": "Las microondas de baja potencia no son eficaces para tratar la epicondilitis aguda y pueden generar inflamación en lugar de reducirla.",
+          "frecuencia": "2 veces por semana durante 2 semanas"
+        },
+        "incorrecta_B": {
+          "diatermia": "Resistiva profunda de 1 MHz",
+          "tratamiento_complementario": "Masoterapia y crioterapia",
+          "justificacion": "La diatermia resistiva profunda no es recomendada en una fase aguda, ya que podría empeorar la inflamación en la zona afectada.",
+          "frecuencia": "2 veces por semana durante 3 semanas"
+        },
+        "incorrecta_C": {
+          "diatermia": "Capacitiva de alta frecuencia",
+          "tratamiento_complementario": "Terapia manual y estiramientos suaves",
+          "justificacion": "La alta frecuencia no es adecuada para tratar lesiones en fase aguda, ya que el calor intenso puede agravar el dolor e inflamación.",
+          "frecuencia": "Diaria durante 1 semana"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Hombre de 50 años, carpintero",
+      "edad": 50,
+      "diagnostico": "Lesión del manguito rotador del hombro izquierdo (fase crónica)",
+      "respuestas": {
+        "correcta": {
+          "diatermia": "Capacitiva 0.8 MHz (frecuencia media, baja potencia)",
+          "tratamiento_complementario": "Rehabilitación activa y terapia manual",
+          "justificacion": "La diatermia favorece la recuperación de tejidos musculares y tendinosos mediante la mejora de la circulación y la activación metabólica local.",
+          "frecuencia": "2 veces por semana durante 4 semanas"
+        },
+        "incorrecta_A": {
+          "diatermia": "Microondas de baja potencia",
+          "tratamiento_complementario": "Masajes y fortalecimiento de la musculatura escapular",
+          "justificacion": "Las microondas de baja potencia no son eficaces para este tipo de lesiones crónicas y pueden promover más inflamación.",
+          "frecuencia": "Diaria durante 1 semana"
+        },
+        "incorrecta_B": {
+          "diatermia": "Resistiva de 1 MHz",
+          "tratamiento_complementario": "Electroterapia TENS y estiramiento activo",
+          "justificacion": "La diatermia resistiva no es adecuada para la fase crónica de la lesión del manguito rotador, donde el tejido ya está más regenerado.",
+          "frecuencia": "2 veces por semana durante 3 semanas"
+        },
+        "incorrecta_C": {
+          "diatermia": "Ultrasonido terapéutico",
+          "tratamiento_complementario": "Ejercicios de movilización del hombro y crioterapia",
+          "justificacion": "El ultrasonido no alcanza la profundidad necesaria para tratar adecuadamente la lesión del manguito rotador en su fase crónica.",
+          "frecuencia": "3 veces por semana durante 2 semanas"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Mujer de 28 años, profesora de danza",
+      "edad": 28,
+      "diagnostico": "Lesión por sobrecarga en el tibial anterior (fase subaguda)",
+      "respuestas": {
+        "correcta": {
+          "diatermia": "Capacitiva de 0.8 MHz",
+          "tratamiento_complementario": "Reposo y ejercicios de estiramiento controlado",
+          "justificacion": "La diatermia favorece la eliminación de toxinas y mejora la circulación, acelerando la recuperación muscular.",
+          "frecuencia": "2-3 veces por semana durante 2 semanas"
+        },
+        "incorrecta_A": {
+          "diatermia": "Resistiva profunda",
+          "tratamiento_complementario": "Masoterapia profunda",
+          "justificacion": "La resistiva profunda no es adecuada en la fase subaguda, ya que podría generar un aumento de la inflamación y retrasar la curación.",
+          "frecuencia": "3 veces por semana durante 1 semana"
+        },
+        "incorrecta_B": {
+          "diatermia": "Microondas de baja potencia",
+          "tratamiento_complementario": "Terapia manual y fortalecimiento",
+          "justificacion": "Las microondas no son eficaces para tratar las lesiones musculares en fase subaguda.",
+          "frecuencia": "2 veces por semana durante 3 semanas"
+        },
+        "incorrecta_C": {
+          "diatermia": "Capacitiva de alta frecuencia",
+          "tratamiento_complementario": "Estiramientos y fortalecimiento muscular",
+          "justificacion": "La alta frecuencia puede generar una sobrecarga térmica en los tejidos y no es recomendable en lesiones de sobrecarga.",
+          "frecuencia": "Diaria durante 1 semana"
+        }
+      }
+    }
+  ]
+}

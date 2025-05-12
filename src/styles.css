@@ -1,0 +1,32 @@
+
+            @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animación para la escalera */
+@keyframes subirEscalera {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px); /* Ajusta la distancia según sea necesario */
+  }
+}
+
+.subir-escala {
+  animation: subirEscalera 1s ease-in-out forwards;
+}
+
+/* Animación para la serpiente */
+@keyframes bajarSerpiente {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50px); /* Ajusta la distancia según sea necesario */
+  }
+}
+
+.bajar-serpiente {
+  animation: bajarSerpiente 1s ease-in-out forwards;
+}
