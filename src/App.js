@@ -167,25 +167,32 @@ const App = () => {
             <PlayerSelection onStart={startGame} />
           </div>
         ) : (
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <GameBoard
-                players={players}
-                currentPlayer={currentPlayer}
-                moveAnimation={moveAnimation}
-              />
-            </div>
+        <div className="flex space-x-6 items-start">
+          {/* Tablero */}
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <GameBoard
+              players={players}
+              currentPlayer={currentPlayer}
+              moveAnimation={moveAnimation}
+            />
+          </div>
 
-            <div className="text-center text-lg font-semibold text-indigo-700">
-              Turno de: <span className={`font-bold ${getPlayerColor(currentPlayer)}`}>
+          {/* Panel lateral libre */}
+          <div className="flex flex-col items-center space-y-8 pt-48">
+            <div className="text-3xl font-bold text-indigo-1000">
+              Turno de:
+              <span className={`ml-2 ${getPlayerColor(currentPlayer)}`}>
                 {players[currentPlayer]?.name || `Jugador ${currentPlayer + 1}`}
               </span>
             </div>
 
-            <div className="flex justify-center">
+            <div className="mt-4">
               <Dice onRoll={movePlayer} />
             </div>
           </div>
+        </div>
+
+
         )}
 
         {showInstructions && (
